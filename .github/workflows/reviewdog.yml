@@ -3,6 +3,8 @@ name: reviewdog
 
 on:
   push:
+    branches:
+    - master
 
 jobs:
   detect-secrets:

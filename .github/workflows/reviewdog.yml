@@ -2,7 +2,7 @@
 name: reviewdog
 
 on:
-  pull_request:
+  push:
 
 jobs:
   detect-secrets:

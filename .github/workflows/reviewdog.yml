@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: detect-secrets
-      uses: ./
+      uses: reviewdog/action-detect-secrets@master
       with:
         github_token: ${{ secrets.github_token }}
         reporter: github-pr-review
